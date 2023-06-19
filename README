@@ -1,0 +1,31 @@
+# SICP
+
+## 開発環境
+
+Use Racket to write scheme lang.
+
+### Install racket
+
+```sh
+$ brew install minimal-racket
+$ raco pkg install sicp # packages for sicp
+```
+
+### 開発方法
+
+RELPへの入り方
+
+```sh
+$ racket -I sicp
+```
+
+終了
+
+`ctrl+z` or `,exit`
+
+ファイルから実行
+
+```sh
+racket /path/to/file.rkt
+```
+
